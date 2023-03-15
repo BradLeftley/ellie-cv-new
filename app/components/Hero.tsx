@@ -11,6 +11,7 @@ import {
   createIcon,
   Image,
 } from '@chakra-ui/react';
+import Technologies from './Technologies';
 
 export default function Hero() {
   return (
@@ -43,35 +44,7 @@ export default function Hero() {
             align={'center'}
             alignSelf={'center'}
             position={'relative'}>
-            {/* <Button
-              colorScheme={'green'}
-              bg={'green.400'}
-              rounded={'full'}
-              px={6}
-              _hover={{
-                bg: 'green.500',
-              }}>
-              Get Started
-            </Button> */}
-            {/* <Box>
-              <Icon
-                as={Arrow}
-                color={useColorModeValue('gray.800', 'gray.300')}
-                w={71}
-                position={'absolute'}
-                right={-71}
-                top={'10px'}
-              />
-              <Text
-                fontSize={'lg'}
-                fontFamily={'Caveat'}
-                position={'absolute'}
-                right={'-125px'}
-                top={'-15px'}
-                transform={'rotate(10deg)'}>
-                Starting at $15/mo
-              </Text>
-            </Box> */}
+                <Technologies />
           </Stack>
         </Stack>
       </Container>

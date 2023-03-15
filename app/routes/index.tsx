@@ -1,4 +1,5 @@
 import { Link } from "@remix-run/react";
+import Education from "~/components/Education";
 import Experience from "~/components/Experience";
 import Hero from "~/components/Hero";
 import Nav from "~/components/Nav";
@@ -14,7 +15,7 @@ export default function Index() {
    <Hero />
    <Experience />
    <Projects />
-
+    <Education />
    </>
   );
 }

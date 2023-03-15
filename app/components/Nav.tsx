@@ -39,7 +39,7 @@ export default function Nav() {
     <>
       <Box bg={useColorModeValue('#1c86bf', 'gray.900')} px={4}>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
-          <Box color={'white'}>Bradley Leftley</Box>
+          <Box color={'white'}></Box>
 
           <Flex alignItems={'center'}>
             <Stack direction={'row'} spacing={7}>
