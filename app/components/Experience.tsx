@@ -285,6 +285,7 @@ gap={4}>
 </GridItem>
 
 </Grid>
+<Divider mt={12} mb={12} />
 </Box>
       </>
     

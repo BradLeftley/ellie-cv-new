@@ -8,6 +8,7 @@ import {
     Stack,
     Text,
     useColorModeValue,
+    Divider,
   } from '@chakra-ui/react';
   import { ReactElement } from 'react';
   import {
@@ -116,6 +117,7 @@ import {
               href={'#'}
             />
           </Flex>
+          <Divider mt={12} mb={12} />
         </Container>
       </Box>
     );
