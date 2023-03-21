@@ -60,7 +60,7 @@ const Medium = () => {
   return (
     <Container maxW={"7xl"} p="12">
       <Heading as="h2" marginTop="0">
-        Medium Articless
+        Medium Articles
       </Heading>
       <Divider marginTop="5" />
       <Wrap spacing="30px" marginTop="5">
