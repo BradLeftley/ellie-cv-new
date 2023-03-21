@@ -152,7 +152,7 @@ jobs:
         run: yarn build
 
       - name: 🛠 Install Arc
-        run: yarn add @architect/architect
+        run: yarn global add @architect/architect
 
       - name: 🚀 Staging Deploy
         if: github.ref == 'refs/heads/dev'
