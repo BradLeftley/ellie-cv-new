@@ -146,7 +146,7 @@ jobs:
       - name: 📥 Download deps
         uses: bahmutov/npm-install@v1
         with:
-          install-command: yarn --frozen-lockfile --silent
+          install-command: yarn --silent
 
       - name: 🏗 Build
         run: npm run build
