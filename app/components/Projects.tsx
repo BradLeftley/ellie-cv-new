@@ -19,7 +19,6 @@ import {
   FcDonate,
   FcPhoneAndroid,
   FcHighPriority,
-  FcPhoneAndroid,
   FcManager,
   FcCurrencyExchange,
 } from "react-icons/fc";
