@@ -230,9 +230,10 @@ export default function Experience() {
           <GridItem>
             <Flex>
               <chakra.p>
-                Senior Front End developer working within Smart Pensions
-                transitional project rebuilding our Ember Application into React
-                using new tools such as React, Graphql and Remix.
+                I lead a project involving onboarding new partners into the
+                company. This project was built using Ember. I also worked on
+                number of other applications such as event tooling written in
+                Anjular.js.
               </chakra.p>
             </Flex>
           </GridItem>
@@ -266,9 +267,10 @@ export default function Experience() {
           <GridItem>
             <Flex>
               <chakra.p>
-                Senior Front End developer working within Smart Pensions
-                transitional project rebuilding our Ember Application into React
-                using new tools such as React, Graphql and Remix.
+                At daemon solutions I worked on Retail reporting applications
+                for a high street retailer. This application was built using
+                Ember. This role also involves working with UX designer /
+                backend engineers.
               </chakra.p>
             </Flex>
           </GridItem>
@@ -302,9 +304,10 @@ export default function Experience() {
           <GridItem>
             <Flex>
               <chakra.p>
-                Senior Front End developer working within Smart Pensions
-                transitional project rebuilding our Ember Application into React
-                using new tools such as React, Graphql and Remix.
+                As part of a summer placement and during my final year at
+                university I worked on an IOS application called Facereel. This
+                app transformed photos into a Timelapse reels showing aging,
+                hair growth and other fun transformations.
               </chakra.p>
             </Flex>
           </GridItem>
