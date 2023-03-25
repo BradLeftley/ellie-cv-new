@@ -91,6 +91,49 @@ const Medium = () => {
                 textDecoration="none"
                 _hover={{ textDecoration: "none" }}
               >
+                Remix Grunge Stack AWS Deployment
+              </Link>
+            </Heading>
+            <Text as="p" fontSize="md" marginTop="2">
+              I recently setup my own VPN on my mac mini, with PI hole running
+              in a docker container finally allowing me to filter out ads and
+              tracking on my iPhone on WIFI over 4G anywhere in the world. Also
+              being able to access my Mac Mini’s storage and other applications.
+            </Text>
+
+            {/* <BlogAuthor
+              name="Bradley Leftley"
+              date={new Date("2021-04-06T19:01:27Z")}
+            /> */}
+          </Box>
+        </WrapItem>
+        <WrapItem width={{ base: "100%", sm: "45%", md: "45%", lg: "30%" }}>
+          <Box w="100%">
+            <Box borderRadius="lg" overflow="hidden">
+              <Link textDecoration="none" _hover={{ textDecoration: "none" }}>
+                <Image
+                  transform="scale(1.0)"
+                  src={
+                    "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*_P0K_4_8rt-gaaxQR_g0Rg.png"
+                  }
+                  alt="some text"
+                  objectFit="contain"
+                  width="100%"
+                  transition="0.3s ease-in-out"
+                  _hover={{
+                    transform: "scale(1.05)",
+                  }}
+                />
+              </Link>
+            </Box>
+            {/* <BlogTags tags={["Mac", ""]} marginTop="3" /> */}
+            <Heading fontSize="xl" marginTop="2">
+              <Link
+                target="_blank"
+                href="https://medium.com/@b_leftley56/turn-your-mac-mini-into-a-vpn-server-with-pi-hole-as-the-dns-content-filter-c66a1c214075"
+                textDecoration="none"
+                _hover={{ textDecoration: "none" }}
+              >
                 Turn your Mac Mini into a VPN server with PI hole as the DNS
                 content filter.
               </Link>

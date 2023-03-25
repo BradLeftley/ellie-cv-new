@@ -14,12 +14,8 @@ import { ReactElement } from "react";
 import {
   FcAbout,
   FcEmptyTrash,
-  FcAssistant,
-  FcCollaboration,
-  FcDonate,
   FcPhoneAndroid,
   FcHighPriority,
-  FcManager,
   FcCurrencyExchange,
 } from "react-icons/fc";
 
