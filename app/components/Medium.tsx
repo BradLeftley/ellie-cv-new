@@ -71,7 +71,7 @@ const Medium = () => {
                 <Image
                   transform="scale(1.0)"
                   src={
-                    "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*_P0K_4_8rt-gaaxQR_g0Rg.png"
+                    "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*ptd-JKESN2cs6-qcY9uyaA.png"
                   }
                   alt="some text"
                   objectFit="contain"
@@ -87,7 +87,7 @@ const Medium = () => {
             <Heading fontSize="xl" marginTop="2">
               <Link
                 target="_blank"
-                href="https://medium.com/@b_leftley56/turn-your-mac-mini-into-a-vpn-server-with-pi-hole-as-the-dns-content-filter-c66a1c214075"
+                href="https://medium.com/@b_leftley56/how-to-deploy-remix-grunge-stack-to-aws-b6255f04f346"
                 textDecoration="none"
                 _hover={{ textDecoration: "none" }}
               >
@@ -95,10 +95,11 @@ const Medium = () => {
               </Link>
             </Heading>
             <Text as="p" fontSize="md" marginTop="2">
-              I recently setup my own VPN on my mac mini, with PI hole running
-              in a docker container finally allowing me to filter out ads and
-              tracking on my iPhone on WIFI over 4G anywhere in the world. Also
-              being able to access my Mac Mini’s storage and other applications.
+              Researching online and watching videos I found there was not a lot
+              of documentation for deploying Remix to AWS, therefore I thought I
+              would create a quick guide for getting started using the Grunge
+              stack with AWS and how to get it linked up to cloud front and
+              Route53 so your users can access the site!
             </Text>
 
             {/* <BlogAuthor
