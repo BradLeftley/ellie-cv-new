@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import { ReactNode } from "react";
 import {
   Box,
   Flex,
@@ -11,23 +11,26 @@ import {
   MenuItem,
   MenuDivider,
   useDisclosure,
+  Flex,
   useColorModeValue,
   Stack,
   useColorMode,
   Center,
-} from '@chakra-ui/react';
-import { MoonIcon, SunIcon } from '@chakra-ui/icons';
+} from "@chakra-ui/react";
+import { MoonIcon, SunIcon } from "@chakra-ui/icons";
+import { Link } from "@remix-run/react";
 
 const NavLink = ({ children }: { children: ReactNode }) => (
   <Link
     px={2}
     py={1}
-    rounded={'md'}
+    rounded={"md"}
     _hover={{
-      textDecoration: 'none',
-      bg: useColorModeValue('gray.200', 'gray.700'),
+      textDecoration: "none",
+      bg: useColorModeValue("gray.200", "gray.700"),
     }}
-    href={'#'}>
+    href={"#"}
+  >
     {children}
   </Link>
 );
@@ -37,14 +40,17 @@ export default function Nav() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <>
-      <Box bg={useColorModeValue('#1c86bf', 'gray.900')} px={4}>
-        <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
-          <Box color={'white'}></Box>
+      <Box bg={useColorModeValue("#1c86bf", "gray.900")} px={4}>
+        <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
+          <Box color={"white"}></Box>
 
-          <Flex alignItems={'center'}>
-            <Stack direction={'row'} spacing={7}>
+          <Flex alignItems={"center"}>
+            <Flex color={"white"} spacing="4" marginRight="3">
+              <Link to="/photos">Photos</Link>
+            </Flex>
+            <Stack direction={"row"} spacing={7}>
               <Button onClick={toggleColorMode}>
-                {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
+                {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
               </Button>
             </Stack>
           </Flex>
