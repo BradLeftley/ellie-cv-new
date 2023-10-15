@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   Box,
   Heading,
@@ -14,11 +14,11 @@ import {
   useColorModeValue,
   Container,
   VStack,
-} from '@chakra-ui/react';
+} from "@chakra-ui/react";
 
 interface IBlogTags {
   tags: Array<string>;
-  marginTop?: SpaceProps['marginTop'];
+  marginTop?: SpaceProps["marginTop"];
 }
 
 const BlogTags: React.FC<IBlogTags> = (props) => {
@@ -26,7 +26,7 @@ const BlogTags: React.FC<IBlogTags> = (props) => {
     <HStack spacing={2} marginTop={props.marginTop}>
       {props.tags.map((tag) => {
         return (
-          <Tag size={'md'} variant="solid" colorScheme="pink" key={tag}>
+          <Tag size={"md"} variant="solid" colorScheme="pink" key={tag}>
             {tag}
           </Tag>
         );
@@ -35,53 +35,36 @@ const BlogTags: React.FC<IBlogTags> = (props) => {
   );
 };
 
-interface BlogAuthorProps {
-  date: Date;
-  name: string;
-}
-
-export const BlogAuthor: React.FC<BlogAuthorProps> = (props) => {
-  return (
-    <HStack marginTop="2" spacing="2" display="flex" alignItems="center">
-      <Image
-        borderRadius="full"
-        boxSize="40px"
-        src="https://100k-faces.glitch.me/random-image"
-        alt={`Avatar of ${props.name}`}
-      />
-      <Text fontWeight="medium">{props.name}</Text>
-      <Text>—</Text>
-      <Text>{props.date.toLocaleDateString()}</Text>
-    </HStack>
-  );
-};
-
 const UxProject = () => {
   return (
-    <Container maxW={'7xl'} p="12">
-
+    <Container maxW={"7xl"} p="12">
       <Box
-        marginTop={{ base: '1', sm: '5' }}
+        marginTop={{ base: "1", sm: "5" }}
         display="flex"
-        flexDirection={{ base: 'column', sm: 'row' }}
-        justifyContent="space-between">
+        flexDirection={{ base: "column", sm: "row" }}
+        justifyContent="space-between"
+      >
         <Box
           display="flex"
           flex="1"
           marginRight="3"
           position="relative"
-          alignItems="center">
+          alignItems="center"
+        >
           <Box
-            width={{ base: '100%', sm: '85%' }}
+            width={{ base: "100%", sm: "85%" }}
             zIndex="2"
-            marginLeft={{ base: '0', sm: '5%' }}
-            marginTop="5%">
-            <Link href='/ux-project' textDecoration="none" _hover={{ textDecoration: 'none' }}>
+            marginLeft={{ base: "0", sm: "5%" }}
+            marginTop="5%"
+          >
+            <Link
+              href="/ux-project"
+              textDecoration="none"
+              _hover={{ textDecoration: "none" }}
+            >
               <Image
                 borderRadius="lg"
-                src={
-                  'https://ellieleftley.co.uk/assets/images/gluten-free.png'
-                }
+                src={"https://ellieleftley.co.uk/assets/images/gluten-free.png"}
                 alt="some good alt text"
                 objectFit="contain"
               />
@@ -90,8 +73,8 @@ const UxProject = () => {
           <Box zIndex="1" width="100%" position="absolute" height="100%">
             <Box
               bgGradient={useColorModeValue(
-                'radial(orange.600 1px, transparent 1px)',
-                'radial(orange.300 1px, transparent 1px)'
+                "radial(orange.600 1px, transparent 1px)",
+                "radial(orange.300 1px, transparent 1px)"
               )}
               backgroundSize="20px 20px"
               opacity="0.4"
@@ -104,19 +87,26 @@ const UxProject = () => {
           flex="1"
           flexDirection="column"
           justifyContent="center"
-          marginTop={{ base: '3', sm: '0' }}>
-          <BlogTags tags={['Mobile']} />
+          marginTop={{ base: "3", sm: "0" }}
+        >
+          <BlogTags tags={["Mobile"]} />
           <Heading marginTop="1">
-            <Link href='/ux-project' textDecoration="none" _hover={{ textDecoration: 'none' }}>
+            <Link
+              href="/ux-project"
+              textDecoration="none"
+              _hover={{ textDecoration: "none" }}
+            >
               Ux Project
             </Link>
           </Heading>
           <Text
             as="p"
             marginTop="2"
-            color={useColorModeValue('gray.700', 'gray.200')}
-            fontSize="lg">
-An airline booking website developed as part of my Professional Diploma in UX Design.
+            color={useColorModeValue("gray.700", "gray.200")}
+            fontSize="lg"
+          >
+            An airline booking website developed as part of my Professional
+            Diploma in UX Design.
           </Text>
           {/* <BlogAuthor name="John Doe" date={new Date('2021-04-06T19:01:27Z')} /> */}
         </Box>
