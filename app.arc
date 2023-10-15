@@ -1,5 +1,5 @@
 @app
-ellie-cv-3c6e
+ellie-cv
 
 @aws
 region eu-west-2
