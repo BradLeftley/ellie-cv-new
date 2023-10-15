@@ -4,16 +4,13 @@ import Hero from "~/components/Hero";
 import Medium from "~/components/Medium";
 import Nav from "~/components/Nav";
 import Projects from "~/components/Projects";
+import UxProject from "~/components/UxProject";
 
 export default function Index() {
   return (
     <>
       <Nav />
-      <Hero />
-      <Experience />
-      <Projects />
-      <Medium />
-      <Education />
+      <UxProject />
     </>
   );
 }

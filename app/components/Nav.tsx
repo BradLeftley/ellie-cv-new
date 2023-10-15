@@ -7,7 +7,9 @@ import {
   Stack,
   useColorMode,
   Center,
+  Text,
   Flex,
+  useBreakpointValue,
 } from "@chakra-ui/react";
 import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 import { Link } from "@remix-run/react";
@@ -31,13 +33,32 @@ export default function Nav() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <>
-      <Box bg={useColorModeValue("#1c86bf", "gray.900")} px={4}>
+      <Box bg={useColorModeValue("#FFFFFF", "gray.900")} px={4}>
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
-          <Box color={"white"}></Box>
+          <Link href="/">
+            <Text
+              textAlign={useBreakpointValue({ base: "center", md: "left" })}
+              fontFamily={"heading"}
+              color={useColorModeValue("gray.600", "white")}
+            >
+              Ellie Leftley
+            </Text>
+          </Link>
 
           <Flex alignItems={"center"}>
-            <Flex color={"white"} spacing="4" marginRight="3">
-              <Link to="/photos">Photos</Link>
+            <Flex
+              color={useColorModeValue("gray.600", "white")}
+              spacing="4"
+              marginRight="3"
+            >
+              <Link to="/photos">Portfolio</Link>
+            </Flex>
+            <Flex
+              color={useColorModeValue("gray.600", "white")}
+              spacing="4"
+              marginRight="3"
+            >
+              <Link to="/photos">About</Link>
             </Flex>
             <Stack direction={"row"} spacing={7}>
               <Button onClick={toggleColorMode}>
