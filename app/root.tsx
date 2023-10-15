@@ -20,7 +20,7 @@ import { ServerStyleContext, ClientStyleContext } from "./context";
 import tailwindStylesheetUrl from "./styles/tailwind.css";
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "Bradley Leftley",
+  title: "Ellie Leftley",
   viewport: "width=device-width,initial-scale=1",
 });
 
