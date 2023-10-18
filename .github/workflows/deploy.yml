@@ -98,7 +98,7 @@ jobs:
       - name: ⎔ Setup node
         uses: actions/setup-node@v3
         with:
-          node-version: 14
+          node-version: 18.13.0
 
       - name: 👀 Env
         run: |
@@ -143,4 +143,3 @@ jobs:
           PATHS: "/*"
           AWS_REGION: "eu-west-2"
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
