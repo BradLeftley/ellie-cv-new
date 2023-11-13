@@ -51,14 +51,14 @@ export default function Nav() {
               spacing="4"
               marginRight="3"
             >
-              <Link to="/photos">Portfolio</Link>
+              <Link to="/about">Portfolio</Link>
             </Flex>
             <Flex
               color={useColorModeValue("gray.600", "white")}
               spacing="4"
               marginRight="3"
             >
-              <Link to="/photos">About</Link>
+              <Link to="/about">About</Link>
             </Flex>
             <Stack direction={"row"} spacing={7}>
               <Button onClick={toggleColorMode}>

@@ -1,14 +1,14 @@
 import LocateLocal from "~/components/LocateLocal";
 import Nav from "~/components/Nav";
-import SimplyGlutenFree from "~/components/SimplyGlutenFree";
+import Header from "~/components/Header";
 import UxProject from "~/components/UxProject";
 
 export default function Index() {
   return (
     <>
       <Nav />
+      <Header />
       <UxProject />
-      <SimplyGlutenFree />
       <LocateLocal />
     </>
   );
