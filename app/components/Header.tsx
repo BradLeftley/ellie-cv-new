@@ -17,7 +17,7 @@ import {
   UnorderedList,
   ListItem,
 } from "@chakra-ui/react";
-
+import EllieImage from "../images/ellie.jpeg";
 interface IBlogTags {
   tags: Array<string>;
   marginTop?: SpaceProps["marginTop"];
@@ -48,7 +48,7 @@ export const BlogAuthor: React.FC<BlogAuthorProps> = (props) => {
       <Image
         borderRadius="full"
         boxSize="40px"
-        src="https://100k-faces.glitch.me/random-image"
+        src={EllieImage}
         alt={`Avatar of ${props.name}`}
       />
       <Text fontWeight="medium">{props.name}</Text>
@@ -67,6 +67,14 @@ const Header = () => {
         spacing="2"
         alignItems="flex-start"
       >
+        <Image
+          src={EllieImage}
+          alt="Ellie Leftley"
+          borderRadius="full"
+          border="5px solid"
+          borderColor={useColorModeValue("pink.500", "gray.700")}
+          boxSize="150px"
+        />
         <Heading as="h2">Content Specialist </Heading>
         <Heading as="h3" paddingLeft={2}>
           Hi, I'm Ellie!
