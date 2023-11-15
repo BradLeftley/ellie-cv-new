@@ -40,6 +40,9 @@ export default function Nav() {
               textAlign={useBreakpointValue({ base: "center", md: "left" })}
               fontFamily={"heading"}
               color={useColorModeValue("gray.600", "white")}
+              onClick={() => {
+                window.location.href = "/";
+              }}
             >
               Ellie Leftley
             </Text>
