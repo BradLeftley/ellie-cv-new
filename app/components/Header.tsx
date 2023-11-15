@@ -18,11 +18,12 @@ import {
   ListItem,
 } from "@chakra-ui/react";
 import EllieImage from "../images/ellie.jpeg";
+import GlutenFree from "../images/gluten-free.png";
+
 interface IBlogTags {
   tags: Array<string>;
   marginTop?: SpaceProps["marginTop"];
 }
-import GlutenFree from "../images/gluten-free.png";
 
 const BlogTags: React.FC<IBlogTags> = (props) => {
   return (
