@@ -22,6 +22,7 @@ interface IBlogTags {
   tags: Array<string>;
   marginTop?: SpaceProps["marginTop"];
 }
+import GlutenFree from "../images/gluten-free.png";
 
 const BlogTags: React.FC<IBlogTags> = (props) => {
   return (
@@ -182,8 +183,8 @@ const Header = () => {
             >
               <Image
                 borderRadius="lg"
-                src={"https://ellieleftley.co.uk/assets/images/gluten-free.png"}
-                alt="some good alt text"
+                src={GlutenFree}
+                alt="Simply Gluten Free Image"
                 objectFit="contain"
               />
             </Link>

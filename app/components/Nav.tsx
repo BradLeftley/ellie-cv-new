@@ -46,20 +46,20 @@ export default function Nav() {
           </Link>
 
           <Flex alignItems={"center"}>
-            <Flex
+            {/* <Flex
               color={useColorModeValue("gray.600", "white")}
               spacing="4"
               marginRight="3"
             >
               <Link to="/about">Portfolio</Link>
-            </Flex>
-            <Flex
+            </Flex> */}
+            {/* <Flex
               color={useColorModeValue("gray.600", "white")}
               spacing="4"
               marginRight="3"
             >
               <Link to="/about">About</Link>
-            </Flex>
+            </Flex> */}
             <Stack direction={"row"} spacing={7}>
               <Button onClick={toggleColorMode}>
                 {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
