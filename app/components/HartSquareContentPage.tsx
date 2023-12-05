@@ -95,7 +95,7 @@ export default function HartSquareContentPage() {
             The challenge
           </Text>
           <Text as="p" marginTop="5">
-            To develop and manage an editorial content calendar.
+            Content Management and Creation
             <br />
             <br></br>
             Key responsibilities included:
@@ -134,13 +134,6 @@ export default function HartSquareContentPage() {
               and testimonials and case studies.
             </ListItem>
             <ListItem>
-              Identify topics and guests: To do this I again worked closely with
-              internal team members and they are the ‘knowledge holders’. They
-              work most closely with our clients, so understood their challenges
-              and knowledge gaps. This gave us a range of content topics as well
-              as key guests to approach for the podcast.
-            </ListItem>
-            <ListItem>
               Content Planning: I established a content calendar using AirTable
               in which I would distribute content topics across the different
               channels. I owned beginning-to-end content creation across all
@@ -150,35 +143,52 @@ export default function HartSquareContentPage() {
               as well as implementing best SEO practices.
             </ListItem>
             <ListItem>
-              Record, edit and publish: I recorded the episodes remotely using
-              tools such as Zoom and Microsoft Teams. The audio was editing
-              using audacity and the video using Adobe Premiere Pro. The podcast
-              was publishing using the Blubrry Podcast Hosting Service which
-              published on Spotify, Google Podcasts and Apple Podcasts.
-            </ListItem>
-            <ListItem>
-              Promote: Podcast episodes were promoted on social media through
-              the use of video trailers. They were are also promoted via the
-              email marketing newsletter.
+              Promotion and Monitoring: I developed a plan to promote each
+              content item which also included creating a social media calendar
+              and initiating an Insights newsletter to 8000+ email subscribers.
+              I collated and evaluated analytics through Google Analytics and
+              social media analytics tools, to derive insights and identify
+              improvements to increase engagement and audience retention. I
+              presented these statistics and analytics to senior leaders to keep
+              them informed of the successes and developments.
             </ListItem>
           </OrderedList>
           <Text as={"h2"} marginTop="5" fontSize="xl">
             Deliverables
           </Text>
           <UnorderedList>
-            <ListItem>Creation</ListItem>
-            <ListItem>
-              The Hart Square Podcast available on Spotify, Google Podcasts and
-              Apple Podcasts.{" "}
-            </ListItem>
-            <ListItem>
-              The Hart Square Podcast available on Spotify, Google Podcasts and
-              Apple Podcasts.{" "}
-            </ListItem>
+            <ListItem>Content calendar </ListItem>
+            <ListItem>Content publication</ListItem>
+            <ListItem>Social media planner</ListItem>
 
+            <ListItem>Content newsletter</ListItem>
+          </UnorderedList>
+          <Text as={"h2"} marginTop="5" fontSize="xl">
+            Results
+          </Text>
+          <UnorderedList>
             <ListItem>
-              Youtube episodes and Social media video for promotion
-              https://www.linkedin.com/feed/update/urn:li:activity:7033431939885760513{" "}
+              Range of content produced including blog articles, guides, case
+              studies, infographics, videos and podcasts.{" "}
+            </ListItem>
+            <ListItem>
+              Increased traffic to website, collectively resulted in a 44%
+              increase in organic traffic to website.
+            </ListItem>
+          </UnorderedList>
+          <Text as={"h2"} marginTop="5" fontSize="xl">
+            Challenges and lessons learnt
+          </Text>
+          <UnorderedList>
+            <ListItem>
+              A key challenge which I often faced was unexpected changes to
+              calendar as content would not always come through on the deadline.
+              To overcome this issue I created a ‘backlog’ of content to fall
+              back which ensure the continued publication of content. I would
+              also repurpose content into new forms, for example a webinar
+              written up into a blog. This would reduce the time taken to
+              produce a new piece of content and also allow for the optimisation
+              of content we have already produced.
             </ListItem>
           </UnorderedList>
         </Container>

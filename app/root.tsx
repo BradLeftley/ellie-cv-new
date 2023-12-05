@@ -18,6 +18,7 @@ import { ChakraProvider } from "@chakra-ui/react";
 
 import { ServerStyleContext, ClientStyleContext } from "./context";
 import tailwindStylesheetUrl from "./styles/tailwind.css";
+import Nav from "./components/Nav";
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
   title: "Ellie Leftley",
@@ -95,6 +96,7 @@ export default function App() {
   return (
     <Document>
       <ChakraProvider>
+        <Nav />
         <Outlet />
       </ChakraProvider>
     </Document>
