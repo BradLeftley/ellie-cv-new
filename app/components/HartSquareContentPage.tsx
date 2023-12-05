@@ -192,9 +192,3 @@ export default function HartSquareContentPage() {
     </>
   );
 }
-
-const StatsText = ({ children }: { children: ReactNode }) => (
-  <Text as={"span"} fontWeight={700} color={"white"}>
-    {children}
-  </Text>
-);
