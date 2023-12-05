@@ -6,13 +6,9 @@ import {
   Flex,
   Text,
   Heading,
-  SimpleGrid,
   ListItem,
   UnorderedList,
-  Image,
-  Link,
   OrderedList,
-  useColorMode,
   useColorModeValue,
 } from "@chakra-ui/react";
 

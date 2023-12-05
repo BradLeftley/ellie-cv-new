@@ -5,15 +5,11 @@ import {
   Link,
   Image,
   Text,
-  Divider,
   HStack,
   Tag,
-  Wrap,
-  WrapItem,
   SpaceProps,
   useColorModeValue,
   Container,
-  VStack,
 } from "@chakra-ui/react";
 import Podcast from "../images/HartSquareContent.png";
 

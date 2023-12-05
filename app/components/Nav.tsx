@@ -6,7 +6,6 @@ import {
   useColorModeValue,
   Stack,
   useColorMode,
-  Center,
   Text,
   Flex,
   useBreakpointValue,
