@@ -1,8 +1,6 @@
-import { ReactNode } from "react";
 import {
   Box,
   Button,
-  useDisclosure,
   useColorModeValue,
   Stack,
   useColorMode,
@@ -29,7 +27,7 @@ import { Link } from "@remix-run/react";
 
 export default function Nav() {
   const { colorMode, toggleColorMode } = useColorMode();
-  const { isOpen, onOpen, onClose } = useDisclosure();
+  // const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <>
       <Box bg={useColorModeValue("#FFFFFF", "gray.900")} px={4}>
