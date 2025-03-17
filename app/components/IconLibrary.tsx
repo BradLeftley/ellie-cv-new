@@ -11,7 +11,6 @@ import {
   useColorModeValue,
   Container,
 } from "@chakra-ui/react";
-import LocateLocalImage from "../images/iconlibrary.png";
 
 interface IBlogTags {
   tags: Array<string>;
@@ -81,7 +80,7 @@ const IconLibrary = () => {
             >
               <Image
                 borderRadius="lg"
-                src={LocateLocalImage}
+                src={"https://i.ibb.co/Hp3m1M5P/iconlibrary.png"}
                 objectFit="contain"
               />
             </Link>

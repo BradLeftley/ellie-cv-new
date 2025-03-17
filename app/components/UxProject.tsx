@@ -61,7 +61,7 @@ const UxProject = () => {
             >
               <Image
                 borderRadius="lg"
-                src={FlyUX}
+                src={"https://i.ibb.co/ymT2CJsD/flyux.png"}
                 alt="Ux Project"
                 objectFit="contain"
               />

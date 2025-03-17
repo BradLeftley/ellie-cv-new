@@ -15,15 +15,15 @@ import {
 } from "@chakra-ui/react";
 import SimplyGlutentFreeInterviewOne from "../images/simply-gluten-free-interview-one.jpeg";
 import SimplyGlutentFreeInterviewTwo from "../images/simply-gluten-free-interview-image-two.jpeg";
-import FinalOne from "../images/gf/final 1.png";
-import FinalTwo from "../images/gf/final 2.png";
-import FinalThree from "../images/gf/final 3.png";
-import FinalFour from "../images/gf/final 4.png";
-import FinalFive from "../images/gf/final 5.png";
-import FinalSix from "../images/gf/final 6.png";
-import FinalSeven from "../images/gf/final 7.png";
-import FinalEight from "../images/gf/final 8.png";
-import FinalNine from "../images/gf/final 9.png";
+import FinalOne from "../images/gff/final1.png";
+import FinalTwo from "../images/gff/final2.png";
+import FinalThree from "../images/gff/final3.png";
+import FinalFour from "../images/gff/final4.png";
+import FinalFive from "../images/gff/final5.png";
+import FinalSix from "../images/gff/final6.png";
+import FinalSeven from "../images/gff/final7.png";
+import FinalEight from "../images/gff/final8.png";
+import FinalNine from "../images/gff/final9.png";
 
 export default function SimplyGlutenFreePage() {
   return (

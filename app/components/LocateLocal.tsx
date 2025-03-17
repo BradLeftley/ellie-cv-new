@@ -81,7 +81,7 @@ const LocateLocal = () => {
             >
               <Image
                 borderRadius="lg"
-                src={LocateLocalImage}
+                src={"https://i.ibb.co/3yhMqPF1/locatelocal.png"}
                 objectFit="contain"
               />
             </Link>

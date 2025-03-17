@@ -76,8 +76,9 @@ export default function HartSquareWebsitePage() {
                   Aim
                 </Text>
                 <Text fontSize={"lg"} color={"white"}>
-                  To establish a strong brand identity and to implement the new
-                  brand in the implementation of a new company website
+                  To establish a strong and cohesive brand identity and
+                  implement the new brand in the development of a new company
+                  website.
                 </Text>
               </Box>
             </Stack>
@@ -91,20 +92,27 @@ export default function HartSquareWebsitePage() {
             My Role
           </Text>
           <Text as="p" marginTop="5">
-            Project lead
+            Project Lead
             <br />
             <br></br>
             Key responsibilities included:
             <UnorderedList>
               <ListItem>
-                {" "}
-                Working closely with both internal and external stakeholders.
+                Collaborated with internal and external stakeholders to align on
+                brand vision and implementation.
               </ListItem>
-              <ListItem>Review rebrand designs </ListItem>
               <ListItem>
-                Create collateral to implement new brand across company
+                Reviewed and refined rebrand designs to ensure consistency and
+                effectiveness.
               </ListItem>
-              <ListItem>Ensure project remained on track</ListItem>
+              <ListItem>
+                Created collateral to implement the new brand identity across
+                all company materials.
+              </ListItem>
+              <ListItem>
+                Managed project timelines to ensure successful and timely
+                execution.
+              </ListItem>
             </UnorderedList>
           </Text>
           <br />
@@ -113,12 +121,27 @@ export default function HartSquareWebsitePage() {
             Deliverables
           </Text>
           <OrderedList marginLeft="10">
-            <ListItem>New brand logo established</ListItem>
             <ListItem>
-              Implementation of new style guide across company collateral
+              Established a new brand logo to reflect company values and vision.
             </ListItem>
-            <ListItem>Implementation of new website</ListItem>
+            <ListItem>
+              Implemented a new style guide across all company collateral to
+              maintain brand consistency.
+            </ListItem>
+            <ListItem>
+              Successfully launched a new website aligned with the refreshed
+              brand identity.
+            </ListItem>
           </OrderedList>
+          <br />
+          <br></br>
+          <Text as="p">
+            This project demonstrates my ability to lead branding initiatives,
+            oversee design implementation, and ensure a seamless transition
+            across digital and physical platforms. The successful rebrand
+            strengthened Hart Square's market presence and improved user
+            engagement through a well-executed website redesign.
+          </Text>
         </Container>
       </Box>
     </>
