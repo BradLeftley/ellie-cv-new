@@ -32,7 +32,7 @@ export default function Nav() {
     <>
       <Box bg={useColorModeValue("#FFFFFF", "gray.900")} px={4}>
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
-          <Link href="/">
+          <Link to="/">
             <Text
               textAlign={useBreakpointValue({ base: "center", md: "left" })}
               fontFamily={"heading"}
