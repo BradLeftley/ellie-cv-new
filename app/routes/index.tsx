@@ -12,8 +12,8 @@ export default function Index() {
       <HartSquarePodcast />
       <HartSquareContent />
       <HartSquareWebsite />
-      {/* <UxProject /> */}
-      {/* <LocateLocal /> */}
+      <UxProject />
+      <LocateLocal />
     </>
   );
 }
