@@ -88,7 +88,6 @@ const Header = () => {
           audiences, fulfill business requirements, and elevate the overall user
           experience.
         </Text>
-
         <Heading paddingLeft={6} as="p" fontSize={"lg"}>
           My Core Skills:
         </Heading>
@@ -101,7 +100,6 @@ const Header = () => {
           <ListItem>SEO Optimization</ListItem>
           <ListItem>Email Marketing</ListItem>
         </UnorderedList>
-
         <Heading as="h2" fontSize="xl" mb={2} paddingLeft={6}>
           Work Experience
         </Heading>
@@ -110,31 +108,22 @@ const Header = () => {
             Digital Marketing and Content Executive (UX-Focused) | Hart Square,
             London UK | April 2021 - October 2023
             <br />
-            <Text as="span" fontSize="sm">
-              – Integrated UX principles in marketing strategies to improve
-              conversion rates and user satisfaction.
-            </Text>
           </ListItem>
           <ListItem>
             Events and Marketing Coordinator | Hart Square, London UK | May 2019
             - April 2021
             <br />
-            <Text as="span" fontSize="sm">
-              – Coordinated user-focused events and oversaw marketing materials
-              to ensure consistent branding and messaging.
-            </Text>
           </ListItem>
           <ListItem>
             Research Support and Communications Assistant | University of
             Sussex, Brighton UK | December 2017 - April 2019
             <br />
-            <Text as="span" fontSize="sm">
+            {/* <Text as="span" fontSize="sm">
               – Provided UX-driven communications support, emphasizing clarity
               and accessibility in digital content.
-            </Text>
+            </Text> */}
           </ListItem>
         </UnorderedList>
-
         <Heading as="h2" fontSize="xl" paddingLeft={6}>
           Certifications
         </Heading>
@@ -152,7 +141,6 @@ const Header = () => {
             of IT | February 2020
           </ListItem>
         </UnorderedList>
-
         <Heading as="h2" fontSize="xl" paddingLeft={6}>
           Tools
         </Heading>
@@ -166,13 +154,39 @@ const Header = () => {
           <ListItem>Microsoft Office / Office 365</ListItem>
           <ListItem>Google Analytics (User Engagement Insights)</ListItem>
         </UnorderedList>
-
         <Heading as="h2" fontSize="xl" paddingLeft={6}>
           Contact Information
         </Heading>
-        <Text paddingLeft={6}>Email: ellieleftley@yahoo.co.uk</Text>
-        <Text paddingLeft={6}>LinkedIn: linkedin.com/in/ellieleftley</Text>
+        <Text paddingLeft={6}>
+          Email:
+          <Link
+            href="mailto:ellieleftley@yahoo.co.uk"
+            color="blue.500"
+            ml={2}
+            target="_blank"
+            _hover={{ textDecoration: "underline" }}
+          >
+            ellieleftley@yahoo.co.uk
+          </Link>
+        </Text>
+        <Text paddingLeft={6}>
+          LinkedIn:
+          <Link
+            href="https://linkedin.com/in/ellieleftley"
+            color="blue.500"
+            ml={2}
+            target="_blank"
+            _hover={{ textDecoration: "underline" }}
+          >
+            linkedin.com/in/ellieleftley
+          </Link>
+        </Text>
       </VStack>
+
+      {/* Portfolio align center */}
+      <HStack spacing={2} marginTop={2} justify="center" align="center">
+        <Heading textDecor={"underline"}>Portfolio</Heading>
+      </HStack>
 
       <Box
         marginTop={{ base: "1", sm: "5" }}
@@ -247,6 +261,13 @@ const Header = () => {
             recipes, and restaurants — all with a streamlined, intuitive
             interface.
           </Text>
+          <br></br>
+          <Link
+            href="https://www.figma.com/proto/A5vypwwtG1wpd9YogtMvrn/Simply-Gluten-Free?node-id=23-2&t=1NPiBThB603fdqO8-1"
+            target="_blank"
+          >
+            View the wireframes on Figma
+          </Link>
         </Box>
       </Box>
     </Container>

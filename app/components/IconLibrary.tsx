@@ -11,7 +11,7 @@ import {
   useColorModeValue,
   Container,
 } from "@chakra-ui/react";
-import LocateLocalImage from "../images/locatelocal.png";
+import LocateLocalImage from "../images/iconlibrary.png";
 
 interface IBlogTags {
   tags: Array<string>;
@@ -53,7 +53,7 @@ export const BlogAuthor: React.FC<BlogAuthorProps> = (props) => {
   );
 };
 
-const LocateLocal = () => {
+const IconLibrary = () => {
   return (
     <Container maxW={"7xl"} p="12">
       <Box
@@ -75,7 +75,7 @@ const LocateLocal = () => {
             marginTop="5%"
           >
             <Link
-              href="/locate-local"
+              href="/icon-library"
               textDecoration="none"
               _hover={{ textDecoration: "none" }}
             >
@@ -105,14 +105,14 @@ const LocateLocal = () => {
           justifyContent="center"
           marginTop={{ base: "3", sm: "0" }}
         >
-          <BlogTags tags={["Website"]} />
+          <BlogTags tags={["Website", "Mobile"]} />
           <Heading marginTop="1">
             <Link
-              href="/locate-local"
+              href="/icon-library"
               textDecoration="none"
               _hover={{ textDecoration: "none" }}
             >
-              Locate Local
+              Icon Library
             </Link>
           </Heading>
           <Text
@@ -121,16 +121,16 @@ const LocateLocal = () => {
             color={useColorModeValue("gray.700", "gray.200")}
             fontSize="lg"
           >
-            A business directory allowing users to find busiensses and services
-            in their local area.
+            An icon library featuring a variety of icons for use in web and
+            mobile applications.
           </Text>
           <br></br>
-          <Link
+          {/* <Link
             href="https://www.figma.com/design/84l1S04J0usm7nX7IMxfvS/Locate-Local?t=1qGkVM1u2HakZD8M-1"
             target="_blank"
           >
             View the wireframes on Figma
-          </Link>
+          </Link> */}
           {/* <BlogAuthor name="John Doe" date={new Date('2021-04-06T19:01:27Z')} /> */}
         </Box>
       </Box>
@@ -138,4 +138,4 @@ const LocateLocal = () => {
   );
 };
 
-export default LocateLocal;
+export default IconLibrary;

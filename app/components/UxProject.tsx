@@ -9,7 +9,9 @@ import {
   SpaceProps,
   useColorModeValue,
   Container,
+  Image,
 } from "@chakra-ui/react";
+import FlyUX from "../images/flyux.png";
 
 interface IBlogTags {
   tags: Array<string>;
@@ -57,11 +59,12 @@ const UxProject = () => {
               textDecoration="none"
               _hover={{ textDecoration: "none" }}
             >
-              {/* <Image
+              <Image
                 borderRadius="lg"
-                src={"https://ellieleftley.co.uk/assets/images/gluten-free.png"}
+                src={FlyUX}
+                alt="Ux Project"
                 objectFit="contain"
-              /> */}
+              />
             </Link>
           </Box>
           <Box zIndex="1" width="100%" position="absolute" height="100%">
@@ -90,7 +93,7 @@ const UxProject = () => {
               textDecoration="none"
               _hover={{ textDecoration: "none" }}
             >
-              Ux Project
+              Fly UX Project
             </Link>
           </Heading>
           <Text
@@ -102,6 +105,14 @@ const UxProject = () => {
             An airline booking website developed as part of my Professional
             Diploma in UX Design.
           </Text>
+          <br></br>
+          <Link
+            href="https://www.figma.com/board/JhglC1AWg70NCXb6iedmQB/Project-15---Ellie-Leftley?node-id=0-1&p=f"
+            target="_blank"
+          >
+            View the wireframes on Figma
+          </Link>
+
           {/* <BlogAuthor name="John Doe" date={new Date('2021-04-06T19:01:27Z')} /> */}
         </Box>
       </Box>

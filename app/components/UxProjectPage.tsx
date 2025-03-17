@@ -7,6 +7,7 @@ import {
   Heading,
   ListItem,
   UnorderedList,
+  Link,
 } from "@chakra-ui/react";
 
 export default function UxProjectPage() {
@@ -230,6 +231,12 @@ export default function UxProjectPage() {
             success.{" "}
           </Text>
 
+          <Link
+            href="https://www.figma.com/board/JhglC1AWg70NCXb6iedmQB/Project-15---Ellie-Leftley?node-id=0-1&p=f"
+            target="_blank"
+          >
+            View the wireframes on Figma
+          </Link>
           {/* <Wrap marginTop="5">
             <WrapItem>
               <Image

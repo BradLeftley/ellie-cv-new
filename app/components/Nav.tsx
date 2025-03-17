@@ -10,6 +10,7 @@ import {
 } from "@chakra-ui/react";
 import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 import { Link } from "@remix-run/react";
+
 // const NavLink = ({ children }: { children: ReactNode }) => (
 //   <Link
 //     px={2}

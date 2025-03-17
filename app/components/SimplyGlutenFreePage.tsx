@@ -11,9 +11,20 @@ import {
   OrderedList,
   WrapItem,
   Wrap,
+  Link,
 } from "@chakra-ui/react";
 import SimplyGlutentFreeInterviewOne from "../images/simply-gluten-free-interview-one.jpeg";
 import SimplyGlutentFreeInterviewTwo from "../images/simply-gluten-free-interview-image-two.jpeg";
+import FinalOne from "../images/gf/final 1.png";
+import FinalTwo from "../images/gf/final 2.png";
+import FinalThree from "../images/gf/final 3.png";
+import FinalFour from "../images/gf/final 4.png";
+import FinalFive from "../images/gf/final 5.png";
+import FinalSix from "../images/gf/final 6.png";
+import FinalSeven from "../images/gf/final 7.png";
+import FinalEight from "../images/gf/final 8.png";
+import FinalNine from "../images/gf/final 9.png";
+
 export default function SimplyGlutenFreePage() {
   return (
     <>
@@ -104,8 +115,8 @@ export default function SimplyGlutenFreePage() {
           <Text as="p">
             To begin I carried out a benchmarking exercise. I searched through
             app stores, including IOS app store and Android app store, with
-            search terms including ‘gluten free’, 'restaurants', 'recipes',
-            ‘food apps’, ‘recipe apps’ and ‘restaurant finder apps’.
+            search terms including 'gluten free', 'restaurants', 'recipes',
+            'food apps', 'recipe apps' and 'restaurant finder apps'.
             <br />
             <br></br>
             With each app I downloaded, I explored a user's journey by searching
@@ -270,6 +281,94 @@ export default function SimplyGlutenFreePage() {
               />
             </WrapItem>
           </Wrap>
+
+          <Text as={"h2"} fontSize="xl" fontWeight={"bold"} marginTop="10">
+            Final Design Screenshots
+          </Text>
+          <Wrap marginTop="5" spacing={4} justify="center">
+            <WrapItem>
+              <Image
+                boxSize="250px"
+                objectFit="contain"
+                src={FinalOne}
+                alt="App Screenshot 1"
+              />
+            </WrapItem>
+            <WrapItem>
+              <Image
+                boxSize="250px"
+                objectFit="contain"
+                src={FinalTwo}
+                alt="App Screenshot 2"
+              />
+            </WrapItem>
+            <WrapItem>
+              <Image
+                boxSize="250px"
+                objectFit="contain"
+                src={FinalThree}
+                alt="App Screenshot 3"
+              />
+            </WrapItem>
+            <WrapItem>
+              <Image
+                boxSize="250px"
+                objectFit="contain"
+                src={FinalFour}
+                alt="App Screenshot 4"
+              />
+            </WrapItem>
+            <WrapItem>
+              <Image
+                boxSize="250px"
+                objectFit="contain"
+                src={FinalFive}
+                alt="App Screenshot 5"
+              />
+            </WrapItem>
+            <WrapItem>
+              <Image
+                boxSize="250px"
+                objectFit="contain"
+                src={FinalSix}
+                alt="App Screenshot 6"
+              />
+            </WrapItem>
+            <WrapItem>
+              <Image
+                boxSize="250px"
+                objectFit="contain"
+                src={FinalSeven}
+                alt="App Screenshot 7"
+              />
+            </WrapItem>
+            <WrapItem>
+              <Image
+                boxSize="250px"
+                objectFit="contain"
+                src={FinalEight}
+                alt="App Screenshot 8"
+              />
+            </WrapItem>
+            <WrapItem>
+              <Image
+                boxSize="250px"
+                objectFit="contain"
+                src={FinalNine}
+                alt="App Screenshot 9"
+              />
+            </WrapItem>
+          </Wrap>
+
+          <Link
+            href="https://www.figma.com/proto/A5vypwwtG1wpd9YogtMvrn/Simply-Gluten-Free?node-id=23-2&t=1NPiBThB603fdqO8-1"
+            target="_blank"
+            display="block"
+            marginTop="6"
+            textAlign="center"
+          >
+            View the wireframes on Figma
+          </Link>
         </Container>
       </Box>
     </>

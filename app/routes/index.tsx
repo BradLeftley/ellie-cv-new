@@ -4,6 +4,7 @@ import HartSquareContent from "~/components/HartSquareContent";
 import HartSquareWebsite from "~/components/HartSquareWebsite";
 import UxProject from "~/components/UxProject";
 import LocateLocal from "~/components/LocateLocal";
+import IconLibrary from "~/components/IconLibrary";
 
 export default function Index() {
   return (
@@ -11,11 +12,12 @@ export default function Index() {
       {/* <Nav />
       <Outlet /> */}
       <Header />
-      <HartSquarePodcast />
-      <HartSquareContent />
       <HartSquareWebsite />
+      <HartSquareContent />
       <UxProject />
       <LocateLocal />
+      <IconLibrary />
+      <HartSquarePodcast />
     </>
   );
 }

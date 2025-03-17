@@ -8,6 +8,7 @@ import {
   ListItem,
   UnorderedList,
   OrderedList,
+  Link,
 } from "@chakra-ui/react";
 
 export default function LocateLocalPage() {
@@ -133,6 +134,13 @@ export default function LocateLocalPage() {
               am I making?
             </ListItem>
           </OrderedList>
+          <br></br>
+          <Link
+            href="https://www.figma.com/design/84l1S04J0usm7nX7IMxfvS/Locate-Local?t=1qGkVM1u2HakZD8M-1"
+            target="_blank"
+          >
+            View the wireframes on Figma
+          </Link>
           {/* <Text as={"h2"} marginTop="5" fontSize="xl">
             Desktop Research
           </Text> */}
