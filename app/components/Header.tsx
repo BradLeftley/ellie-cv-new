@@ -68,34 +68,38 @@ const Header = () => {
       >
         <Image
           src={EllieImage}
-          alt="Ellie Leftley"
+          alt="Ellie"
           borderRadius="full"
           border="5px solid"
           borderColor={useColorModeValue("pink.500", "gray.700")}
           boxSize="150px"
         />
-        <Heading as="h2">Content Specialist </Heading>
+        <Heading as="h2">
+          UX-Focused Content and Digital Experience Specialist
+        </Heading>
         <Heading as="h3" paddingLeft={2}>
-          Hi, I'm Ellie!
+          Hello, I'm Ellie!
         </Heading>
         <Text paddingLeft={6} as="p" fontSize="lg">
-          Leveraging over four years of experience in crafting and overseeing a
-          diverse range of content, I blend a strong passion for user experience
-          design to produce impactful content that connects with audiences and
-          fulfils business requirements.
+          Leveraging over four years of experience in designing, crafting, and
+          managing user-centric digital content, I blend a strong passion for
+          user experience design with content strategy to produce impactful
+          solutions. My goal is to create content journeys that resonate with
+          audiences, fulfill business requirements, and elevate the overall user
+          experience.
         </Text>
 
         <Heading paddingLeft={6} as="p" fontSize={"lg"}>
           My Core Skills:
         </Heading>
-
         <UnorderedList paddingLeft={12}>
-          <ListItem>Copywriting - website blog writing</ListItem>
-          <ListItem>Social media copy</ListItem>
-          <ListItem>Social media management</ListItem>
-          <ListItem>Copy editing</ListItem>
-          <ListItem>SEO optimisation</ListItem>
-          <ListItem>Email marketing</ListItem>
+          <ListItem>User-Centered Content Strategy</ListItem>
+          <ListItem>UX Writing and Copywriting</ListItem>
+          <ListItem>Social Media Management & Copy</ListItem>
+          <ListItem>Information Architecture & Wireframing</ListItem>
+          <ListItem>User Research & Usability Testing</ListItem>
+          <ListItem>SEO Optimization</ListItem>
+          <ListItem>Email Marketing</ListItem>
         </UnorderedList>
 
         <Heading as="h2" fontSize="xl" mb={2} paddingLeft={6}>
@@ -103,16 +107,31 @@ const Header = () => {
         </Heading>
         <UnorderedList paddingLeft={12}>
           <ListItem>
-            Digital Marketing and Content Executive | Hart Square, London UK |
-            April 2021 - October 2023
+            Digital Marketing and Content Executive (UX-Focused) | Hart Square,
+            London UK | April 2021 - October 2023
+            <br />
+            <Text as="span" fontSize="sm">
+              – Integrated UX principles in marketing strategies to improve
+              conversion rates and user satisfaction.
+            </Text>
           </ListItem>
           <ListItem>
             Events and Marketing Coordinator | Hart Square, London UK | May 2019
             - April 2021
+            <br />
+            <Text as="span" fontSize="sm">
+              – Coordinated user-focused events and oversaw marketing materials
+              to ensure consistent branding and messaging.
+            </Text>
           </ListItem>
           <ListItem>
             Research Support and Communications Assistant | University of
             Sussex, Brighton UK | December 2017 - April 2019
+            <br />
+            <Text as="span" fontSize="sm">
+              – Provided UX-driven communications support, emphasizing clarity
+              and accessibility in digital content.
+            </Text>
           </ListItem>
         </UnorderedList>
 
@@ -138,14 +157,14 @@ const Header = () => {
           Tools
         </Heading>
         <UnorderedList paddingLeft={12}>
-          <ListItem>Wordpress</ListItem>
+          <ListItem>Figma (Prototyping & Collaborative Design)</ListItem>
+          <ListItem>WordPress (UX-Focused Content Management)</ListItem>
           <ListItem>Canva</ListItem>
           <ListItem>Adobe (Photoshop, Illustrator, Premiere Pro)</ListItem>
           <ListItem>Hootsuite</ListItem>
           <ListItem>Slack</ListItem>
           <ListItem>Microsoft Office / Office 365</ListItem>
-          <ListItem>Google Analytics</ListItem>
-          <ListItem>Figma</ListItem>
+          <ListItem>Google Analytics (User Engagement Insights)</ListItem>
         </UnorderedList>
 
         <Heading as="h2" fontSize="xl" paddingLeft={6}>
@@ -199,6 +218,7 @@ const Header = () => {
             />
           </Box>
         </Box>
+
         <Box
           display="flex"
           flex="1"
@@ -222,11 +242,11 @@ const Header = () => {
             color={useColorModeValue("gray.700", "gray.200")}
             fontSize="lg"
           >
-            A food app enabling individuals who follow a gluten free diet, to
-            find food supplies, recipes and restaurants with ease.
+            A food app designed with a user-first mindset, enabling individuals
+            who follow a gluten-free diet to effortlessly find food supplies,
+            recipes, and restaurants — all with a streamlined, intuitive
+            interface.
           </Text>
-
-          {/* <BlogAuthor name="John Doe" date={new Date('2021-04-06T19:01:27Z')} /> */}
         </Box>
       </Box>
     </Container>

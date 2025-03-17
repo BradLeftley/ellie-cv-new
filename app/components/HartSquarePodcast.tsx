@@ -79,12 +79,7 @@ const HartSquarePodcast = () => {
               textDecoration="none"
               _hover={{ textDecoration: "none" }}
             >
-              <Image
-                borderRadius="lg"
-                src={Podcast}
-                alt="some good alt text"
-                objectFit="contain"
-              />
+              <Image borderRadius="lg" src={Podcast} objectFit="contain" />
             </Link>
           </Box>
           <Box zIndex="1" width="100%" position="absolute" height="100%">

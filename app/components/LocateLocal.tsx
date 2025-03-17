@@ -78,12 +78,11 @@ const LocateLocal = () => {
               textDecoration="none"
               _hover={{ textDecoration: "none" }}
             >
-              <Image
+              {/* <Image
                 borderRadius="lg"
                 src={"https://ellieleftley.co.uk/assets/images/gluten-free.png"}
-                alt="some good alt text"
                 objectFit="contain"
-              />
+              /> */}
             </Link>
           </Box>
           <Box zIndex="1" width="100%" position="absolute" height="100%">

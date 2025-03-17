@@ -18,7 +18,7 @@ export default function LocateLocalPage() {
           flex={1}
           zIndex={0}
           display={{ base: "none", lg: "flex" }}
-          backgroundImage="url('https://i.ibb.co/jwGKfF6/Screen-Shot-2021-02-28-at-12-44-48.png')"
+          // backgroundImage="url('https://i.ibb.co/jwGKfF6/Screen-Shot-2021-02-28-at-12-44-48.png')"
           backgroundSize={"cover"}
           backgroundPosition="center"
           backgroundRepeat="no-repeat"
@@ -133,9 +133,9 @@ export default function LocateLocalPage() {
               am I making?
             </ListItem>
           </OrderedList>
-          <Text as={"h2"} marginTop="5" fontSize="xl">
+          {/* <Text as={"h2"} marginTop="5" fontSize="xl">
             Desktop Research
-          </Text>
+          </Text> */}
         </Container>
       </Box>
     </>

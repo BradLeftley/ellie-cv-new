@@ -79,12 +79,7 @@ const HartSquareWebsite = () => {
               textDecoration="none"
               _hover={{ textDecoration: "none" }}
             >
-              <Image
-                borderRadius="lg"
-                src={Podcast}
-                alt="some good alt text"
-                objectFit="contain"
-              />
+              <Image borderRadius="lg" src={Podcast} objectFit="contain" />
             </Link>
           </Box>
           <Box zIndex="1" width="100%" position="absolute" height="100%">
@@ -106,7 +101,8 @@ const HartSquareWebsite = () => {
           justifyContent="center"
           marginTop={{ base: "3", sm: "0" }}
         >
-          <BlogTags tags={["Website"]} />
+          {/* Updated tags to highlight UX approach */}
+          <BlogTags tags={["Website", "UX Strategy"]} />
           <Heading marginTop="1">
             <Link
               href="/hart-square-website"
@@ -122,13 +118,19 @@ const HartSquareWebsite = () => {
             color={useColorModeValue("gray.700", "gray.200")}
             fontSize="lg"
           >
-            Hart Square is an independent technology consultancy operating
-            exclusively in the non-profit sector. I was tasked with creating a
-            content calendar for the organisation with the aims to build brand
-            awareness, become established as a thought leader in the sector and
-            to increase traffic to the website.
+            Hart Square is an independent technology consultancy serving the
+            non-profit sector. My role involved creating a user-focused content
+            calendar to enhance brand awareness, establish the company as a
+            thought leader, and boost website traffic. This process included
+            audience research, mapping user journeys, and refining site
+            navigation to ensure an intuitive, engaging experience for
+            prospective and existing clients.
           </Text>
-          {/* <BlogAuthor name="John Doe" date={new Date('2021-04-06T19:01:27Z')} /> */}
+          {/* 
+          If you want to feature the BlogAuthor, uncomment and adjust as needed:
+          
+          <BlogAuthor name="John Doe" date={new Date('2021-04-06T19:01:27Z')} /> 
+          */}
         </Box>
       </Box>
     </Container>

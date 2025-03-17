@@ -20,7 +20,6 @@ export default function UxProjectPage() {
           flex={1}
           zIndex={0}
           display={{ base: "none", lg: "flex" }}
-          backgroundImage="url('https://i.ibb.co/jwGKfF6/Screen-Shot-2021-02-28-at-12-44-48.png')"
           backgroundSize={"cover"}
           backgroundPosition="center"
           backgroundRepeat="no-repeat"
@@ -234,7 +233,7 @@ export default function UxProjectPage() {
             success.{" "}
           </Text>
 
-          <Wrap marginTop="5">
+          {/* <Wrap marginTop="5">
             <WrapItem>
               <Image
                 boxSize="250px"
@@ -249,7 +248,7 @@ export default function UxProjectPage() {
                 src="simply-gluten-free-interview-image-two.jpeg"
               />
             </WrapItem>
-          </Wrap>
+          </Wrap> */}
         </Container>
       </Box>
     </>
