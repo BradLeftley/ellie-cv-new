@@ -7,9 +7,6 @@ import {
   Heading,
   ListItem,
   UnorderedList,
-  Image,
-  WrapItem,
-  Wrap,
 } from "@chakra-ui/react";
 
 export default function UxProjectPage() {
