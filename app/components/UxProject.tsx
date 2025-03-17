@@ -3,7 +3,6 @@ import {
   Box,
   Heading,
   Link,
-  Image,
   Text,
   HStack,
   Tag,
